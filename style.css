@@ -81,12 +81,40 @@ h2 {
   color: #2c3e50;
 }
 
-/* Footer */
 footer {
-  text-align: center;
-  padding: 1rem;
-  font-size: 0.9rem;
-  color: #888;
-  background: #f0f0f0;
   margin-top: 3rem;
+  padding: 1.5rem;
+  background-color: #f9f9f9;
+  text-align: center;
+  border-top: 1px solid #ccc;
+  color: #444;
+  font-size: 0.95rem;
+}
+
+.footer-contact p {
+  margin: 0.2rem 0;
+}
+
+.footer-contact a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+.footer-contact a:hover {
+  text-decoration: underline;
+}
+
+.social-icons {
+  margin-top: 1rem;
+}
+
+.social-icons img {
+  width: 28px;
+  height: 28px;
+  margin: 0 8px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
 }
