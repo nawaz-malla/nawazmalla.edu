@@ -1,0 +1,88 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  background: #f3f6f9;
+  color: #333;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+nav {
+  background-color: #ffffff;
+  border-bottom: 2px solid #d3d3d3;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+}
+
+.navbar li {
+  margin: 0 15px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #444;
+  font-weight: bold;
+  padding: 10px 5px;
+  border-bottom: 3px solid transparent;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  border-color: #800080;
+  color: #800080;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.profile-pic {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.profile-info h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #1a1a1a;
+}
+
+.profile-info p {
+  margin: 6px 0;
+}
+
+main {
+  margin-top: 30px;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  padding: 10px;
+  font-size: 0.9rem;
+  color: #777;
+}
