@@ -1,28 +1,130 @@
-<!-- research.html -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Research | Nawaz Malla</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research | Nawaz Abdullah Malla</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <nav>
-      <ul class="navbar">
-        <li><a href="index.html">Introduction</a></li>
-        <li><a class="active" href="research.html">Research</a></li>
-        <li><a href="activities.html">Professional</a></li>
-        <li><a href="teaching.html">Teaching</a></li>
-        <li><a href="publications.html">Publications</a></li>
-        <li><a href="supervision.html">Supervision</a></li>
-      </ul>
+    <header class="main-header">
+        <div class="profile-container">
+            <div class="profile-header">
+                <div class="profile-info">
+                    <h1>Mr. Nawaz Abdullah Malla</h1>
+                    <p class="position">Ph.D. Student, University of Florence, Italy</p>
+                    <p class="office">Viale Morgagni, 65 - 1st floor - room ..</p>
+                    
+                    <div class="vertical-spacer"></div>
+
+                    <div class="contact-info">
+                        <p><strong>Email:</strong> Nawazabdullah.malla@unifi.it</p>
+                        <p><strong>Tel:</strong> +39 3512257516</p>
+                    </div>
+                </div>
+                
+                <div class="department-info">
+                    <p>Computer Science</p>
+                    <p>Department of Statistics, Computer Science, Applications 'G. Parenti' (DiSIA)</p>
+                </div>
+                
+                <div class="profile-photo">
+                    <img src="Naw.jpeg" alt="Nawaz Abdullah Malla" />
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="main-navigation">
+        <div class="profile-container">
+            <ul class="navigation">
+                <li><a href="home.html" class="nav-link">Home</a></li>
+                <li><a href="introduction.html" class="nav-link">Introduction</a></li>
+                <li><a href="research.html" class="nav-link active">Research</a></li>
+                <li><a href="professional.html" class="nav-link">Professional activities</a></li>
+                <li><a href="teaching.html" class="nav-link">Teaching activities</a></li>
+                <li><a href="publication.html" class="nav-link">Selected publications</a></li>
+                <li><a href="education.html" class="nav-link">Education</a></li>
+                <li><a href="experience.html" class="nav-link">Experience</a></li>
+            </ul>
+        </div>
     </nav>
 
-    <main>
-      <h2>Research</h2>
-      <p>My research focuses on blockchain technologies, smart contract upgradeability, and BPMN-driven execution on Algorand. I work on secure distributed protocols and formally verified contract logic for improved reliability and modularity in decentralized systems.</p>
+    <main class="profile-container">
+        <section class="research-section">
+            <h1>Research Focus</h1>
+            
+            <div class="research-area">
+                <h2><i class="fas fa-project-diagram"></i> Computer Science and Blockchain</h2>
+                <div class="research-content">
+                    <div class="research-text">
+                        <p>My research is dedicated to the development and design of smart contracts for building reliable and scalable blockchain applications, with a strong focus on:</p>
+                        <ul>
+                            <li>Modeling business processes on the Algorand blockchain</li>
+                            <li>Flexible and modular smart contract engineering</li>
+                            <li>Formal verification and validation of smart contracts</li>
+                            <li>Security in decentralized application development</li>
+                            <li>Performance optimization and scalability of blockchain systems</li>
+                        </ul>
+                    </div>
+                    <div class="research-image">
+                        <!-- Optional image can be placed here -->
+                        <!-- <img src="block.jpeg" alt="Blockchain Research"> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="research-area">
+                <h2> Current Projects</h2>
+                <div class="project-card">
+                    <h3>Flexible Execution of Business processes on Algorand Blockchain.</h3>
+                    <p class="project-meta">2023-Present | University of Florence</p>
+                    <p>Creating a component-based architecture for smart contracts that enables safe runtime modifications in business processes, while preserving security guarantees.</p>
+                </div>
+                
+                <div class="project-card">
+                    <h3>Development of Tool for flexible execution of business processes on blockchain.</h3>
+                    <p class="project-meta">2024-Present |  University of Florence Brunel University London</p>
+                    <p>Developing a framework starting from BPMN choreography diagrams, representing the business interactions between parties, and  generates an infrastructure based on a public blockchain. This guarantees at the same time a high level of trust and the flexibility useful to enable changes at run-time.</p>
+                </div>
+
+                <div class="project-card">
+                    <h3>Smart Contract Translation for Cross-Chain Interoperability</h3>
+                    <p class="project-meta">2024-Present | Brunel University London</p>
+                    <p>Exploring the use of Large Language Models (LLMs) to automate the translation of Solidity smart contracts into Algorand's Python-based smart contracts. 
+                    This project focuses on enabling interoperability between Ethereum and Algorand networks by simplifying contract migration and reducing manual rewriting efforts.</p>
+                </div>
+            </div>
+        </section>
     </main>
-  </div>
+
+    <footer class="university-footer">
+        <div class="footer-content profile-container">
+            <div class="footer-address">
+                <p>University of Florence</p>
+                <p>Viale Morgagni, 65</p>
+                <p>50144 Florence</p>
+                <p>Italy</p>
+            </div>
+            
+            <div class="footer-contacts">
+                <p><strong>Tel:</strong> +39 3512257516</p>
+                
+                <p><strong>Email:</strong> Nawaz.mlalla@unicam.it</p>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Nawaz Malla</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/nawaz-malla-572583137/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://x.com/nawazmalla"><i class="fab fa-twitter"></i></a>
+                    <a href="https://github.com/nawaz-malla"><i class="fab fa-github"></i></a>
+
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
