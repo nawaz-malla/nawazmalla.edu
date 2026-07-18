@@ -1,1 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
 
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 40px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>Photo Gallery</h1>
+
+<div class="gallery">
+    <img src="images/gallery/photo1.jpg" alt="Photo 1">
+    <img src="images/gallery/photo2.jpg" alt="Photo 2">
+    <img src="images/gallery/photo3.jpg" alt="Photo 3">
+    <img src="images/gallery/photo4.jpg" alt="Photo 4">
+    <img src="images/gallery/photo5.jpg" alt="Photo 5">
+    <img src="images/gallery/photo6.jpg" alt="Photo 6">
+</div>
+
+</body>
+</html>
